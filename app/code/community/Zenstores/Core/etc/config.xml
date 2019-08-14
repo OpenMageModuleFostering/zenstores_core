@@ -11,7 +11,7 @@
 <config>
     <modules>
         <Zenstores_Core>
-            <version>1.0.1</version>
+            <version>1.0.3</version>
         </Zenstores_Core>
     </modules>
     <global>
@@ -35,13 +35,13 @@
     </global>
     <admin>
         <routers>
-            <zenstores_core_admin>
-                <use>admin</use>
+            <adminhtml>
                 <args>
-                    <module>Zenstores_Core</module>
-                    <frontName>zenstores_core_admin</frontName>
+                    <modules>
+                        <zenstores_core after="Mage_Adminhtml">Zenstores_Core_Adminhtml</zenstores_core>
+                    </modules>
                 </args>
-            </zenstores_core_admin>
+            </adminhtml>
         </routers>
     </admin>
 </config>

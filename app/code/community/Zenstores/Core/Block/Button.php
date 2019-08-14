@@ -14,7 +14,7 @@ class Zenstores_Core_Block_Button extends Mage_Adminhtml_Block_System_Config_For
 
         $this->setElement($element);
 
-        $url = Mage::helper("adminhtml")->getUrl('zenstores_core_admin/adminhtml_zenstores');
+        $url = Mage::helper("adminhtml")->getUrl('adminhtml/zenstores/regenerate');
 
         $html = $this->getLayout()->createBlock('adminhtml/widget_button')
             ->setLabel($elementData['original_data']['button_label'])
