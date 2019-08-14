@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Zenstores
+ *
+ * @category    Zenstores
+ * @package     Zenstores_Core
+ * @copyright   Copyright (c) 2015 Mechfeed Ltd (Zenstores) (https://www.zenstores.com/)
+ */
+-->
+<config>
+    <modules>
+        <Zenstores_Core>
+            <version>1.0.0</version>
+        </Zenstores_Core>
+    </modules>
+    <global>
+        <helpers>
+            <zenstores_core>
+                <class>Zenstores_Core_Helper</class>
+            </zenstores_core>
+        </helpers>
+        <resources>
+            <zenstores_core_setup>
+                <setup>
+                    <module>Zenstores_Core</module>
+                </setup>
+            </zenstores_core_setup>
+        </resources>
+        <blocks>
+            <resources>
+                <class>Zenstores_Core_Block</class>
+            </resources>
+        </blocks>
+    </global>
+    <admin>
+        <routers>
+            <zenstores_core_admin>
+                <use>admin</use>
+                <args>
+                    <module>Zenstores_Core</module>
+                    <frontName>zenstores_core_admin</frontName>
+                </args>
+            </zenstores_core_admin>
+        </routers>
+    </admin>
+</config>

@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Zenstores_Core",
+    "type": "magento-module",
+    "license": "GPL-v3.0",
+    "homepage": "",
+    "description": "Zenstore integration for Magento.",
+    "authors": [
+    {
+        "name": "Zenstores",
+        "email": "support@zenstores.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

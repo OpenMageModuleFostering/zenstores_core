@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Zenstores
+ *
+ * @category    Zenstores
+ * @package     Zenstores_Core
+ * @copyright   Copyright (c) 2015 Mechfeed Ltd (Zenstores) (https://www.zenstores.com/)
+ */
+-->
+<config>
+    <modules>
+        <Zenstores_Core>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Adminhtml />
+            </depends>
+        </Zenstores_Core>
+    </modules>
+</config>
