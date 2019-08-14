@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Zenstores_Core</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="https://www.gnu.org/licenses/gpl-3.0.txt">GPL v3.0</license>
     <channel>community</channel>
@@ -10,9 +10,9 @@
     <description>Zenstore integration for Magento.</description>
     <notes>Create API user for use in Zenstores.</notes>
     <authors><author><name>Zenstores</name><user>zenstores</user><email>support@zenstores.com</email></author></authors>
-    <date>2015-06-25</date>
-    <time>08:47:49</time>
-    <contents><target name="magecommunity"><dir name="Zenstores"><dir name="Core"><dir name="Block"><file name="Button.php" hash="45d703df015c52207a80449e92af0fb2"/><file name="Description.php" hash="9d2c3653ec72c41891785e18faee5714"/><file name="Logo.php" hash="1e6234112e0f1dc6149f4605aa94af70"/><dir name="Text"><file name="Endpoint.php" hash="6a27d94adef690ed176baca2edc22a82"/><file name="Key.php" hash="6b15bcd9a34c219328afcf950243997b"/><file name="Username.php" hash="1e74c103b964f0eabf7b94cd86d2e48a"/></dir></dir><dir name="Helper"><file name="Data.php" hash="c8d5d4cea69bc5e72239c26ba527de35"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ZenstoresController.php" hash="802d98217cb4a384adfff611d75611b6"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="3fb6203e969ae1059370808a14062b61"/><file name="config.xml" hash="eaf4c3d4ca2dce955c4078a5c4d6816e"/><file name="system.xml" hash="84f5d5e39a327ae07e6b3d8fd1d0eaae"/></dir><dir name="sql"><dir name="zenstores_core_setup"><file name="install-1.0.0.php" hash="c46182b1bf39d1f82b607c9b7043c19a"/><file name="mysql4-install-1.0.0.php" hash="34c0a800c16da4288468169d42993d89"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Zenstores_Core.xml" hash="a58031009d95aa1354aa095df0f88e0d"/></dir></target></contents>
+    <date>2015-07-28</date>
+    <time>08:56:43</time>
+    <contents><target name="magecommunity"><dir name="Zenstores"><dir name="Core"><dir name="Block"><file name="Button.php" hash="45d703df015c52207a80449e92af0fb2"/><file name="Description.php" hash="9d2c3653ec72c41891785e18faee5714"/><file name="Logo.php" hash="1e6234112e0f1dc6149f4605aa94af70"/><dir name="Text"><file name="Endpoint.php" hash="6a27d94adef690ed176baca2edc22a82"/><file name="Key.php" hash="6b15bcd9a34c219328afcf950243997b"/><file name="Username.php" hash="1e74c103b964f0eabf7b94cd86d2e48a"/></dir></dir><dir name="Helper"><file name="Data.php" hash="c8d5d4cea69bc5e72239c26ba527de35"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ZenstoresController.php" hash="802d98217cb4a384adfff611d75611b6"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="3fb6203e969ae1059370808a14062b61"/><file name="config.xml" hash="e0f8dd0b6a4f58205b44c52e95063737"/><file name="system.xml" hash="cf46beef7ef41474e788609f5bf67d90"/></dir><dir name="sql"><dir name="zenstores_core_setup"><file name="install-1.0.0.php" hash="c46182b1bf39d1f82b607c9b7043c19a"/><file name="mysql4-install-1.0.0.php" hash="34c0a800c16da4288468169d42993d89"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Zenstores_Core.xml" hash="a58031009d95aa1354aa095df0f88e0d"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.4.0</min><max>8.0.0</max></php></required></dependencies>
 </package>

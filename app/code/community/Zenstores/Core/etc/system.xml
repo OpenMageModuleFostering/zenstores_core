@@ -40,7 +40,7 @@
                             <show_in_store>0</show_in_store>
                         </logo>
                         <description translate="label">
-                            <description>Lorem ipsum</description>
+                            <description>Enter the details below into your Zenstores account to link your store.</description>
                             <frontend_model>resources/description</frontend_model>
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>

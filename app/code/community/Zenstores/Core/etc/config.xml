@@ -11,7 +11,7 @@
 <config>
     <modules>
         <Zenstores_Core>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </Zenstores_Core>
     </modules>
     <global>
